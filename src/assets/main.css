@@ -1,0 +1,41 @@
+/* DESIGN TOKENS (Gatherly) */
+:root {
+  --primary: #6644ff;
+  --primary-hover: #5233e6;
+  --text-main: #1c1948;
+  --text-muted: #6b6b80;
+  --bg-light: #f7f7fb;
+  --bg-gray: #f1f2f6;
+  --border-color: #e4e4ee;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  background: var(--bg-light);
+  color: #333;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
